@@ -1,0 +1,11 @@
+<div class="detail-container">
+    <img src={{activeProduct.url}}>
+    <div class="detail-item">
+        <h3>{{activeProduct.name}}</h3>
+        <p>$ {{activeProduct.price}}</p>
+        <p>{{activeProduct.description}}</p>
+        <input type="number" [(ngModel)]="selectedQuantity" class="number-input">
+        <button class="btn btn-primary" (click)="addToCart(activeProduct, selectedQuantity)">Add to Cart!</button>
+        <a routerLink="/">🠔 back to product list</a>
+    </div>
+</div>
