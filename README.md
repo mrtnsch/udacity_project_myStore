@@ -1,3 +1,23 @@
+# MyStore project description
+
+This project marks the submission for the Udacity MyStore project. It provides a basic interface for an online shop.
+
+## Key functionalities:
+* Fetching product data from online source
+* Displaying product information in an overview
+* Watching details in the product details page
+* Cart functionality (adding and removing products, calculating totals)
+* Form for checkout
+
+## Startup instruction
+Install dependencies
+```npm install```
+
+Serve the application
+```ng serve```
+
+
+#Initial project description by Udacity
 # MyStore Project Overview
 
 MyStore is Angular application that allows users to view a list of available products to purchase, add them to a shopping cart, and ultimately complete the checkout process. 
