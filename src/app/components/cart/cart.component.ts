@@ -42,4 +42,5 @@ export class CartComponent implements OnInit {
     this.orderservice.orderDetailsArr.push(this.orderDetails);
     this.router.navigate(['/confirmation']);
   }
+
 }

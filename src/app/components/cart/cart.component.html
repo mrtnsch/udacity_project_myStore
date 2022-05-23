@@ -8,7 +8,7 @@
                     <h5>{{cartEntry.product.name}}</h5>
                     <p>$ {{cartEntry.product.price}}</p>
                     <label for="amount">Amount: </label>
-                    <input type="number" (change)="recalculateValue()" [(ngModel)]="cartEntry.quantity" class="number-input">
+                    <input type="number" [(ngModel)]="cartEntry.quantity" (ngModelChange)="recalculateValue()" class="number-input">
                 </div>
             </div>
         </div>
